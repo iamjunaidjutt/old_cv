@@ -1,39 +1,46 @@
-
 body {
-    background-color: #DFF6FF;
+	background-color: #dff6ff;
 }
 
-h1,h3 {
-    color: #47B5FF;
+h1,
+h3 {
+	color: #47b5ff;
 }
 
 hr {
-    border-style: dotted none none;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+	border-style: dotted none none;
+	border-color: grey;
+	border-width: 5px;
+	width: 5%;
 }
 
 div {
-	
-    height: 100px;
-    background-color: dodgerblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 100px;
+	background-color: dodgerblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .contact {
-text-decoration: none;
-    font-size: 25px;
-    color: white;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
 }
 
 p > a {
-    text-decoration: none;
-    color:  blue ;
+	text-decoration: none;
+	color: blue;
 }
 
 p > a:hover {
-    color: pink;
+	color: pink;
+}
+
+@media only screen and (max-width: 640px) {
+	td,
+	th {
+		display: flex;
+		flex-direction: column;
+	}
 }
